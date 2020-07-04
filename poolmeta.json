@@ -1,6 +1,27 @@
+
 {
-  "name": "SWAG",
-  "ticker": "SWAG",
-  "description": "ADA SWAG Pool",
-  "homepage": "https://ada-swag.com"
+  "poolName": "ADA_SWAG_POOL",
+  "poolOwner": [
+    {
+    "ownerName": "Crypto_Simp"
+    }
+  ],
+  "poolRewards": "SWAG_Rewards",
+  "poolPledge": "100000000000",
+  "poolCost": "10000000000",
+  "poolMargin": "0.10",
+  "poolRelays": [
+    {
+      "relayType": "dns",
+      "relayEntry": "ec2-18-219-133-39.us-east-2.compute.amazonaws.com",
+      "relayPort": "3001"
+    }
+  ],
+  "poolMetaName": "SWAG",
+  "poolMetaDescription": "Swagged Up, Staking Ada!",
+  "poolMetaTicker": "SWAG",
+  "poolMetaHomepage": "https://ada-swag.com",
+  "poolMetaUrl": "https://github.com/jthompson2003/Pool/blob/master/poolmeta.json",
+  "---": "--- DO NOT EDIT BELOW THIS LINE ---"
 }
+
